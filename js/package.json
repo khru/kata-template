@@ -1,7 +1,7 @@
 {
-  "name": "password-validator",
+  "name": "kata-template",
   "version": "1.0.0",
-  "description": "Kata Password Validator",
+  "description": "Kata template",
   "main": " ",
   "directories": {
     "lib": "src",
