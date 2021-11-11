@@ -1,17 +1,17 @@
-# Goal
-Design and implement a software that validates a password applying TDD.
+# Base para hacer tests
 
-The password will be introduced by the user (as an argument of the method) and should return if the password is valid or not.
+Configuración básica para empezar a hacer una kata o aprender a hacer tests en los siguientes lenguajes:
 
-A valid password should meet the following requirements:
+- PHP y PHPUnit
 
-	 - Have more than 8 characters
-	 - Contains a capital letter
-	 - Contains a lowercase
-	 - Contains a number
-	 - Contains an underscore
+# Configuración específica por lenguaje
 
-# Technical requirements:
+## PHP
+1. Instalar [composer](https://getcomposer.org/) `curl -sS https://getcomposer.org/installer | php`
+2. `composer install` (estando en la carpeta php)
+3. `./vendor/bin/phpunit`
 
-	- We want a method that answers if the password is valid or not.
-	- We don't want to know the reason when the password is invalid (the return value is a boolean)
+## PHP
+[PHPUnit](https://phpunit.readthedocs.io/)
+
+[Prophecy](https://github.com/phpspec/prophecy) para dobles de prueba
