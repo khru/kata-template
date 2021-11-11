@@ -1,17 +1,16 @@
-# Goal
-Design and implement a software that validates a password applying TDD.
+# Base para hacer tests
 
-The password will be introduced by the user (as an argument of the method) and should return if the password is valid or not.
+Configuración básica para empezar a hacer una kata o aprender a hacer tests en los siguientes lenguajes:
 
-A valid password should meet the following requirements:
+- Javascript con Jest
 
-	 - Have more than 8 characters
-	 - Contains a capital letter
-	 - Contains a lowercase
-	 - Contains a number
-	 - Contains an underscore
+# Configuración específica por lenguaje
 
-# Technical requirements:
+## Javascript
+1. Instalar [Node](http://nodejs.org/)
+2. `npm install` (Estando en la carpeta javascript)
+3. `npm test`
 
-	- We want a method that answers if the password is valid or not.
-	- We don't want to know the reason when the password is invalid (the return value is a boolean)
+# Documentación
+## Javascript
+[Jest](https://jestjs.io)
